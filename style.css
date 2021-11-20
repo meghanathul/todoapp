@@ -121,35 +121,3 @@ h1::after{
 .notshow{
   filter: blur(8px);
 }
-/* 
-@media (max-width:800px){
-  /* .container{
-    
-    display: flex;
-    
-    height: 30vh;
-  } */
-  /* .box {
-    width: 300px;
-    position: absolute;
-    margin-top: 200px;
-    
-  }
-  p{
-    display: none;
-  }
-  .box box2{
-    margin-top: 20px;
-  }
-}
-@media (max-width:800px){
-  body{
-    display: flex;
-  }
-  .card{
-     
-    position: relative;
-    float: left;
-    margin-right: ;
-  }
-} */ 
