@@ -41,27 +41,35 @@
 <body>
     <div class="notshow">
         
-        <header class="top">
-            <h2 style="padding-left: 10%; padding-top: 40px;"><b style="color: black;">Task</b> List</h2>
-            <i class="fas fa-plus-circle" style="width: 95%; height: 30px ; left: 20px;"></i>
-            <h2  style="text-align:right ;"></i>Add List</h2>
-        </header>
+        <div class="upper">
+            <div class="heading">
+              <h2><b style="color: black;">Task</b>List</h2>
+            </div>
+            <div class="heading1">
+               <a href="./index1.html"><i class="fas fa-plus-circle" style="width: 95%; height: 30px ;padding-top: 130px; color: crimson;"></i></a>
+               
+            </div>
+            <h4>Add List</h4>
+        </div>
+        
+          
+        
         <div class="container">
-            <div class="box" >
-                <h3 style="color: brown; text-align: center;">Trip to Paris</h3>
+            <div class="box box1" >
+                <h3 style=" text-align: center;"><a href="./index1.html" style="text-decoration: none; color:brown;"> Trip to Paris</a></h3>
                 <hr>
                 <p><del style="color: crimson;" >Completed Task</del><br>
                 <ins><input type="checkbox" id="box" value></ins>
-               <label for="box">Pending Task</label></p>
+            <label for="box">Pending Task</label></p>
             </div>
-            <div class="box">
+            <div class="box box2">
                 <h3 style="color: brown; text-align: center;">My Todo list</h3>
                 <hr>
                 <p><del  style="color: crimson;">Completed Task</del><br>
                     <ins><input type="checkbox" id="box" value></ins>
                 <label for="box">Pending Task</label></p>
             </div>
-            <div class="box">
+            <div class="box box3">
                 <h3 style="color: brown; text-align: center;">My Todo list</h3>
                 <hr>
                 <p><del style="color: crimson;" >Completed Task</del><br>
@@ -70,7 +78,8 @@
             </div>
             <a href="./index1.html">Next</a>
         </div>
-</div>
+    </div>
+        
     <div class="box2">
         <label for="text" style="color: crimson; text-align: center;">Add New Item</label><br>
         <input type="text" id="text" value=""><br>
