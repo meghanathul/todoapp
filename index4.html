@@ -5,26 +5,60 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="./index.html">
-    <link rel="stylesheet" href="./index2.html">
-    <link rel="stylesheet" href="all.css">
-    <script src="all.js"></script>
+    <link rel="stylesheet" href="./index1.html">
+    <style>
+        .notshow2{
+            filter: blur(6px);
+        }
+        h1{
+  font-family: sans-serif;
+  text-align: center;
+  position: absolute;
+  top: 200px;
+  left: 590px;
+
+}
+h1:before{
+  content: "";
+  display: block;
+  width: 120px;
+  height: 2px;
+  background:grey;
+  position: absolute;
+  right:101%;
+  top: 15px;
+  text-align: center;
+  
+}
+h1::after{
+  content: "";
+  display: block;
+  width: 120px;
+  height: 2px;
+  background: grey;
+  position: absolute;
+  left: 110%;
+  bottom: 15px;
+}
+
+    </style> 
 </head>
 <body>
-    <div class="notshow1">
-        
+    <div class="notshow2">
         <div class="upper">
             <div class="heading">
               <h2><b style="color: black;">Task</b>List</h2>
             </div>
             <div class="heading1">
-               <a href="./index1.html"><i class="fas fa-plus-circle" style="width: 95%; height: 30px ;padding-top: 130px; color: crimson;"></i></a>
+               <a href="./index4.html"><i class="fas fa-plus-circle" style="width: 95%; height: 30px ;padding-top: 130px; color: crimson;"></i></a>
                
             </div>
             <h4>Add List</h4>
-        </div>
-        
+    </div>
+    
+          
+    
         <div class="container">
             <div class="box box1" >
                 <h3 style=" text-align: center;"><a href="./index1.html" style="text-decoration: none; color:brown;"> Trip to Paris</a></h3>
@@ -48,30 +82,10 @@
                 <label for="box">Pending Task</label></p>
             </div>
             <a href="./index1.html">Next</a>
-        </div>
+    </div> 
+           
+        
     </div>
-
-  <section>
-         <h1>Trip to Parice</h1> 
-         <div class="back"> 
-           <a href="./index4.html"> <i class="fas fa-arrow-circle-left" style="width: 95%; height: 30px ; color: crimson;"></i></a>
-            
-         </div  >
-         <h5 style="position: absolute; top: 40px;">Back</h5>
-        <div class="card">
-            <h3 style="text-align: center;"> <a href="./index.html" style="color: brown;text-decoration: none;">Trip to Parice</h3></a>
-            <hr>
-            <p><del  style="color: crimson;">Completed Task</del><br>
-                <ins><input type="checkbox" id="box" value></ins>
-            <label for="box">Pending Task</label></p>
-           <div class="icon">
-                <a href="./index2.html"><i class="fas fa-plus-circle" style="width: 95%; height: 30px ; color: crimson;"></i></a> 
-            </div>
-        </div>
-    </section>  
-    <a href="./index.html" style="margin-left: 100px;top: 500px;
-    position: absolute;">Back</a>
-    <a href="./index2.html" style="float: right; margin-left: 1000px; top: 500px;position: absolute;">Next</a>    
-         
+   <a href="./index1.html" style="color: black;"> <h1>Trip to Parice</h1></a>
 </body>
 </html>
